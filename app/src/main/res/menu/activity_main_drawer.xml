@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homee"
+            android:icon="@drawable/home"
+            android:iconTint="@android:color/black"
+            android:title="Home">
+
+            <menu>
+                <group android:menuCategory="container">
+                    <item
+                        android:id="@+id/nav_home"
+                        android:title="Home" />
+
+                    <item
+                        android:id="@+id/nav_res"
+                        android:icon="@drawable/ic_menu_camera"
+                        android:title="Restaurant" />
+                    <item
+                        android:id="@+id/nav_liq"
+
+                        android:title="Liquiors" />
+                    <item
+                        android:id="@+id/nav_bak"
+
+                        android:title="Bakeries" />
+                    <item
+                        android:id="@+id/nav_org"
+
+                        android:title="Organic" />
+                </group>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/favv"
+            android:title="@string/title_favourites" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/basket"
+            android:title="@string/title_basket" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/title_history" />
+
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/title_notifications" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/title_more" />
+
+    </group>
+</menu>
+

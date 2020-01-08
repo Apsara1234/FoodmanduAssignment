@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MORE"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:id="@+id/txtfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="About Foodmandu"/>
+    <TextView
+        android:id="@+id/txtSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Feedback"/>
+
+
+    <TextView
+        android:id="@+id/txtthird"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Terms and Conditions"/>
+    <TextView
+        android:id="@+id/txtfourth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:text="FAQs"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="344dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#8E2323"
+        android:text="LOGIN"
+        android:textSize="30dp" />
+</LinearLayout>
